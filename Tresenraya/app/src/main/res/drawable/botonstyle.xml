@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Estado del boton: presionado-->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#de5bd2"/>
+            <corners android:radius="@dimen/radio_boton"/>
+        </shape>
+    </item>
+
+    <!--Estado del boton: desactivado-->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#303f8f"/>
+            <corners android:radius="@dimen/radio_boton"/>
+        </shape>
+    </item>
+
+    <!--Estado del boton: reposo-->
+    <item>
+        <shape>
+            <gradient android:startColor="#ddbfdf"
+                android:endColor="#2c26da"
+                android:angle="180"/>
+            <corners android:radius="@dimen/radio_boton"/>
+        </shape>
+    </item>
+
+</selector>

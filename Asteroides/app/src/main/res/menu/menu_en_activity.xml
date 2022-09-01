@@ -7,7 +7,7 @@
     <item android:id="@+id/configuracion"
         android:title="Configuración"
         android:icon="@android:drawable/ic_menu_preferences"
-        app:showAsAction="always"
+        app:showAsAction="never"
         /> <!-- id:Nombre del item // title:texto a mostrar en la app-->
 
     <item android:id="@+id/info"
